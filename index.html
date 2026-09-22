@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emberstead SMP - Season One</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="description" content="Emberstead is a vanilla-faithful survival SMP. One season, one world, then it's gone. Season One opens Friday, September 25 at 6 PM PT. Java and Bedrock welcome.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body class="loading">
+  <div class="loader-screen" aria-live="polite" aria-label="Loading Emberstead">
+    <div class="loader-core">
+      <div class="loader-ring"></div>
+      <div class="loader-flame">EMBERSTEAD</div>
+    </div>
+  </div>
+
+  <div class="page-shell">
+    <div class="hero-scroll-track" id="hero-track">
+      <header class="hero" id="hero">
+        <div class="ember-dots" id="embers"></div>
+        <div class="hero-content" id="hero-content">
+          <div class="sigil">A survival server with an end date</div>
+          <h1>EMBERSTEAD</h1>
+          <div class="season">Season One</div>
+          <p class="lede">Emberstead is a vanilla survival server that runs for one season and then shuts down. Thirty days, one shared world, no resets.</p>
+        </div>
+        <div class="opens-slot" id="opens-slot">
+          <div class="opens" id="opens-box">
+            <div class="opens-glow"></div>
+            <div class="opens-corners" aria-hidden="true">
+              <span class="corner top-left"></span>
+              <span class="corner top-right"></span>
+              <span class="corner bottom-left"></span>
+              <span class="corner bottom-right"></span>
+            </div>
+            <div class="label">Server opens</div>
+            <div class="when">
+              <span class="when-date">Friday, September 25</span>
+              <span class="when-sep">&middot;</span>
+              <span class="when-time">6:00 PM PT</span>
+            </div>
+            <div id="countdown"></div>
+            <div class="opens-status">
+              <span class="status-dot"></span>
+              <span class="status-text">Season One &middot; Gates Open at 6 PM PT</span>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-cue" id="scroll-cue">
+          <span class="scroll-cue-text">Scroll to enter</span>
+          <div class="scroll-cue-icon">
+            <span></span>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="block-track" id="about-track">
+      <section class="sticky-block" id="about">
+        <div class="wrap block-wrap">
+          <div class="block-header" id="about-header">
+            <div class="kicker">The Server</div>
+            <h2>What is Emberstead?</h2>
+            <p class="muted">Most survival servers either reset every few months or run the same world forever. Emberstead does neither. The world opens September 25, runs for one season, and closes for good on October 25. When it's over, it's over.</p>
+          </div>
+          <div class="cols about-cards" id="about-cards">
+            <div class="card card-1">
+              <h3>Mostly vanilla</h3>
+              <p>No teleports, no kits, no land claims, no shops. Keep inventory is off, so dying costs you whatever you were carrying.</p>
+            </div>
+            <div class="card card-2">
+              <h3>Java and Bedrock, same world</h3>
+              <p>Java Edition and Bedrock players share one world, so PC, console, and mobile can all play together.</p>
+            </div>
+            <div class="card card-3">
+              <h3>A village to start from</h3>
+              <p>Spawn is a small medieval village built into the hills. There's a market square and a few houses to start from before you head out on your own.</p>
+            </div>
+            <div class="card card-4">
+              <h3>Room to roam</h3>
+              <p>The world border sits at 10,000 blocks. Big enough to spread out, small enough that you'll actually run into people.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- SEASON SECTION -->
+    <div class="block-track" id="season-track">
+      <section class="sticky-block" id="season">
+        <div class="wrap block-wrap">
+          <div class="block-header" id="season-header">
+            <div class="kicker">Season One</div>
+            <h2>How the season runs</h2>
+            <p class="muted">The season runs thirty days. There's something on most weekends, and it ends with a tournament.</p>
+          </div>
+          <div class="timeline" id="season-timeline">
+            <div class="timeline-glow-bar" id="timeline-glow-bar"></div>
+            <div class="ev ev-1">
+              <div class="when">FRI SEP 25 - GATES OPEN</div>
+              <p>Season One begins at 6:00 PM PT. First night in a fresh world.</p>
+            </div>
+            <div class="ev ev-2">
+              <div class="when">SATURDAYS - MARKET NIGHTS</div>
+              <p>Every Saturday at the market square in the spawn village. Open a stall, sell your extras, haggle.</p>
+            </div>
+            <div class="ev ev-3">
+              <div class="when">SUNDAYS - ARENA NIGHTS</div>
+              <p>Duels at the lakeside arena every Sunday. Sign-up board is by the gate.</p>
+            </div>
+            <div class="ev ev-4">
+              <div class="when">OCT 23-24 - THE FINALE</div>
+              <p>Two days of tournament brackets to end the season. Details get posted the week before.</p>
+            </div>
+            <div class="ev ev-5">
+              <div class="when">SUN OCT 25 - THE TORCHES GO OUT</div>
+              <p>The server shuts down at 11:59 PM PT. The world doesn't come back.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- GALLERY SECTION -->
+    <div class="block-track" id="gallery-track">
+      <section class="sticky-block" id="gallery">
+        <div class="wrap block-wrap gallery-wrap">
+          <div class="block-header" id="gallery-header">
+            <div class="kicker">Gallery</div>
+            <h2>From the world</h2>
+            <p class="muted">A few shots of the spawn village to start. Season screenshots get posted here as it runs - check back after event nights.</p>
+          </div>
+          <div class="gallery-viewport" id="gallery-viewport">
+            <div class="gallery-strip" id="gallery-strip">
+              <figure class="gallery-card card-g1">
+                <img src="gallery/keep-facade.jpg" alt="The keep above the spawn village gate" loading="lazy">
+                <figcaption>The keep, from the gate courtyard</figcaption>
+              </figure>
+              <figure class="gallery-card card-g2">
+                <img src="gallery/market-lane.jpg" alt="Aerial view of the market lane in the spawn village" loading="lazy">
+                <figcaption>Market lane from above</figcaption>
+              </figure>
+              <figure class="gallery-card card-g3">
+                <img src="gallery/garden-path.jpg" alt="Garden path winding up through the village" loading="lazy">
+                <figcaption>The garden path up the hill</figcaption>
+              </figure>
+              <figure class="gallery-card card-g4">
+                <img src="gallery/gatefront.jpg" alt="Top-down view of the village gatefront" loading="lazy">
+                <figcaption>Gatefront, top down</figcaption>
+              </figure>
+              <figure class="gallery-card card-g5">
+                <img src="gallery/hilltop-tower.jpg" alt="Watchtower on the hill above the village" loading="lazy">
+                <figcaption>Watchtower on the hill</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- RULES SECTION -->
+    <div class="block-track" id="rules-track">
+      <section class="sticky-block" id="rules">
+        <div class="wrap block-wrap">
+          <div class="block-header" id="rules-header">
+            <div class="kicker">The Rules</div>
+            <h2>Short list. Enforced.</h2>
+          </div>
+          <div class="rules-tablet" id="rules-tablet">
+            <ul class="rules" id="rules-list">
+              <li class="rule-item r-1"><strong>Spawn is the only safe zone.</strong> Outside spawn, griefing, stealing, and raiding are fair game. Hide your stuff or lose it.</li>
+              <li class="rule-item r-2"><strong>Zero tolerance for cheating.</strong> Hacked clients, x-ray, macros, auras - confirmed cheating is a ban. No strikes.</li>
+              <li class="rule-item r-3"><strong>Item duplication is banned.</strong> The usual exceptions stand: TNT, rail, and carpet dupers are fine.</li>
+              <li class="rule-item r-4"><strong>No land claims.</strong> The world is open. Build smart, hide well, and make friends you can trust.</li>
+              <li class="rule-item r-5"><strong>Keep inventory is off.</strong> Death matters. Play like it.</li>
+              <li class="rule-item r-6"><strong>No monetization, ever.</strong> No ranks, no crates, no store. Nobody can buy an advantage here.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- HOW TO JOIN SECTION -->
+    <div class="block-track" id="join-track">
+      <section class="sticky-block" id="join">
+        <div class="wrap block-wrap">
+          <div class="block-header" id="join-header">
+            <div class="kicker">How To Join</div>
+            <h2>Be there when the gates open</h2>
+            <p class="muted">Add the server now so you're ready on opening night. Whitelist-free - if you can connect, you can play.</p>
+          </div>
+
+          <div class="portal-gate" id="portal-gate">
+            <div class="addr-obelisk obelisk-java">
+              <span class="platform">Java</span>
+              <code>emberstead.cloud-ip.cc</code>
+              <button class="copybtn" data-copy="emberstead.cloud-ip.cc">COPY</button>
+            </div>
+            <div class="portal-divider" aria-hidden="true">
+              <span class="portal-spark"></span>
+            </div>
+            <div class="addr-obelisk obelisk-bedrock">
+              <span class="platform">Bedrock</span>
+              <code>bedrock.emberstead.cloud-ip.cc : 30246</code>
+              <button class="copybtn" data-copy="bedrock.emberstead.cloud-ip.cc">COPY</button>
+            </div>
+          </div>
+          <p class="muted bedrock-note" style="margin-top:16px;font-size:15px">Bedrock players: use the address above with port <strong>30246</strong>.</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- COMMUNITY & FOOTER SECTION -->
+    <div class="block-track" id="community-track">
+      <section class="sticky-block" id="community">
+        <div class="wrap block-wrap community-wrap">
+          <div class="block-header" id="community-header">
+            <div class="kicker">Community</div>
+            <h2>Follow the season</h2>
+            <p class="muted">Event announcements, results, and the best moments from the world.</p>
+          </div>
+          <div class="socials" id="community-socials">
+            <div class="social social-discord">
+              <h3>Discord</h3>
+              <p>Event calls, voice chat, and tournament brackets. The invite link goes up here when the server opens.</p>
+            </div>
+            <div class="social social-youtube">
+              <h3>YouTube</h3>
+              <p>Highlights, clips, and event recaps from the season: <a href="https://www.youtube.com/@embersteadsmp">youtube.com/@embersteadsmp</a>. Screenshots land in the gallery above after every event night.</p>
+            </div>
+          </div>
+          <footer class="block-footer" id="block-footer">
+            <div class="flame">Emberstead SMP</div>
+            <div>Season One &middot; September 25 - October 25, 2026</div>
+          </footer>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
